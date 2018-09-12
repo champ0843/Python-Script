@@ -4,9 +4,6 @@ import pandas as pd
 wiki="https://en.wikipedia.org/wiki/List_of_state_and_union_territory_capitals_in_India"
 page=request.urlopen(wiki)
 soup=BeautifulSoup(page,features="html.parser")
-#print(page)
-#print(soup.prettify())
-print(soup.title.sting)
 table=soup.find('table',class_='wikitable sortable plainrowheaders')
 print(table.prettify())
 A=[]
