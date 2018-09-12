@@ -37,4 +37,3 @@ df['Judiciary Capital']=E
 df['Year Capital']=F
 df['Former Capital']=G
 df.to_csv("UNION TERRITORY AND ELSE.csv")
-print(type(soup))
